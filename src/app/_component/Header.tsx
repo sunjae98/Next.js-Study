@@ -23,7 +23,7 @@ export default function Header() {
         </div>
         <div className="flex">
           <SigninBtn />
-          <ContactBtn name="상담 요청" />
+          <ContactBtn name="상담 요청" size="9" />
         </div>
       </div>
     </div>
