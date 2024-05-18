@@ -1,7 +1,9 @@
+import Header from "@/app/_component/Header";
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      메인
+    <main className="flex min-h-screen flex-col justify-between">
+      <Header />
     </main>
   );
 }
