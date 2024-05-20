@@ -10,7 +10,7 @@ interface TextProps {
   img_src: string;
 }
 
-export default function Section4({
+export default function Section5({
   tag,
   first_title,
   second_title,
@@ -22,7 +22,7 @@ export default function Section4({
   return (
     <div className="w-full h-full flex justify-between items-center p-14">
       <div className="flex flex-col flex-1 p-8">
-        <div className="flex rounded-lg w-32 h-10 bg-[#E7F8F9] justify-center items-center text-[#00BCD4] font-bold">
+        <div className="flex rounded-lg w-32 h-10 bg-[#E1F5FE] justify-center items-center text-[#539BE5] font-bold">
           {tag}
         </div>
         <h2 className="flex text-4xl font-bold mt-3 mb-3">
@@ -65,7 +65,7 @@ export default function Section4({
       </div>
       <div className="flex flex-1 p-8">
         <Image
-          src="/suggestion_2.webp"
+          src="/suggestion_4.webp"
           alt="page logo"
           layout="responsive"
           objectFit="contain"
