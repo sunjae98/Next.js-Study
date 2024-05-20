@@ -21,19 +21,8 @@ export default function Section3({
 }: TextProps) {
   return (
     <div className="w-full h-full flex justify-between items-center p-14">
-      <div className="flex flex-1 p-8">
-        <Image
-          src="/suggestion_1.webp"
-          alt="page logo"
-          layout="responsive"
-          objectFit="contain"
-          width={100}
-          height={100}
-          className="rounded-3xl"
-        />
-      </div>
       <div className="flex flex-col flex-1 p-8">
-        <div className="flex rounded-lg w-32 h-10 bg-[#EEEAFE] justify-center items-center text-[#7353EA] font-bold">
+        <div className="flex rounded-lg w-32 h-10 bg-[#E7F8F9] justify-center items-center text-[#00BCD4] font-bold">
           {tag}
         </div>
         <h2 className="flex text-4xl font-bold mt-3 mb-3">
@@ -56,7 +45,7 @@ export default function Section3({
               height={20}
               className="rounded-xl"
             />
-            <p className="flex font-bold text-lg w-24 justify-center items-center ml-2">
+            <p className="flex font-bold text-lg w-30 justify-center items-center ml-2">
               {nav_text}
             </p>
           </div>
@@ -73,6 +62,17 @@ export default function Section3({
             </svg>
           </div>
         </div>
+      </div>
+      <div className="flex flex-1 p-8">
+        <Image
+          src="/suggestion_1.webp"
+          alt="page logo"
+          layout="responsive"
+          objectFit="contain"
+          width={100}
+          height={100}
+          className="rounded-3xl"
+        />
       </div>
     </div>
   );
