@@ -33,7 +33,9 @@ export default function Section3({
         />
       </div>
       <div className="flex flex-col flex-1 p-8">
-        <div className="flex rounded-lg w-32 h-10 bg-[#EEEAFE] justify-center items-center text-[#7353EA] font-bold">
+        <div
+          className={`flex rounded-lg bg-[#EEEAFE] w-32 h-10 justify-center items-center text-[#7353EA] font-bold`}
+        >
           {tag}
         </div>
         <h2 className="flex text-4xl font-bold mt-3 mb-3">
