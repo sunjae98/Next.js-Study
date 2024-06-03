@@ -1,4 +1,8 @@
+"use client";
+
 import Image from "next/image";
+import useOnScreen from "@/hooks/useOnScreen";
+import { useRef } from "react";
 
 interface TextProps {
   tag: string;
@@ -19,9 +23,19 @@ export default function Section3({
   nav_text,
   img_src,
 }: TextProps) {
+  const onboardWrapRef = useRef<HTMLDivElement>(null!);
+  const isVisible = useOnScreen(onboardWrapRef);
+
   return (
-    <div className="w-full h-full flex justify-between items-center p-14">
-      <div className="flex flex-1 p-8">
+    <div
+      className="w-full h-full flex justify-between items-center p-14"
+      ref={onboardWrapRef}
+    >
+      <div
+        className={`flex flex-1 p-8 transition-opacity duration-1000 ${
+          isVisible ? "opacity-100" : "opacity-0"
+        }`}
+      >
         <Image
           src="/suggestion_1.webp"
           alt="page logo"
@@ -32,7 +46,11 @@ export default function Section3({
           className="rounded-3xl"
         />
       </div>
-      <div className="flex flex-col flex-1 p-8">
+      <div
+        className={`flex flex-col flex-1 p-8 transition-opacity duration-1000 ${
+          isVisible ? "opacity-100" : "opacity-0"
+        }`}
+      >
         <div
           className={`flex rounded-lg bg-[#EEEAFE] w-32 h-10 justify-center items-center text-[#7353EA] font-bold`}
         >
