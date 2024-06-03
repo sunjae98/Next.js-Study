@@ -1,4 +1,4 @@
-import KakaoLoginBtn from "@/app/_component/KakaoLoginBtn";
+import KakaoSignupBtn from "@/app/_component/KakaoSignupBtn";
 import SubmitBtn from "@/app/_component/SubmitBtn";
 import Link from "next/link";
 
@@ -6,7 +6,7 @@ export default function Page() {
   return (
     <main className="flex flex-col">
       <p className="text-xl font-bold mx-auto mb-8">가입 방법을 선택하세요</p>
-      <KakaoLoginBtn />
+      <KakaoSignupBtn />
       <Link href="/accounts/signup/form">
         <SubmitBtn text="이메일로 가입하기" />
       </Link>

@@ -1,50 +1,17 @@
 import SubmitBtn from "@/app/_component/SubmitBtn";
 import Link from "next/link";
 import Image from "next/image";
+import InputName from "@/app/_component/InputName";
+import InputEmail from "@/app/_component/InputEmail";
+import InputPw from "@/app/_component/InputPw";
 
 export default function Page() {
   return (
     <main className="flex flex-col">
       <p className="text-xl font-bold mx-auto mb-8">계정을 생성하세요</p>
-      <div className="flex p-4 w-80 h-14 items-center bg-[#fafafa] border border-[#C0C0C0] rounded-xl mb-3">
-        <Image
-          className="mr-2"
-          src="/name_icon.png"
-          alt="name"
-          width={24}
-          height={24}
-        />
-        <input
-          className="focus:outline-none focus:border-none bg-[#fafafa]"
-          placeholder="이름"
-        />
-      </div>
-      <div className="flex p-4 w-80 h-14 items-center bg-[#fafafa] border border-[#C0C0C0] rounded-xl mb-3">
-        <Image
-          className="mr-2"
-          src="/email_icon.png"
-          alt="name"
-          width={24}
-          height={24}
-        />
-        <input
-          className="focus:outline-none focus:border-none bg-[#fafafa]"
-          placeholder="이메일"
-        />
-      </div>
-      <div className="flex p-4 w-80 h-14 items-center bg-[#fafafa] border border-[#C0C0C0] rounded-xl mb-3">
-        <Image
-          className="mr-2"
-          src="/pw_icon.png"
-          alt="name"
-          width={24}
-          height={24}
-        />
-        <input
-          className="focus:outline-none focus:border-none bg-[#fafafa]"
-          placeholder="비밀번호"
-        />
-      </div>
+      <InputName />
+      <InputEmail />
+      <InputPw />
       <button className="text-sm mx-auto mb-7">
         영문, 숫자, 특수문자를 조합하여 8자 이상으로 구성해주세요.
       </button>

@@ -9,7 +9,7 @@ export default function KakaoLoginBtn() {
         width={22}
         height={22}
       />
-      <p className="mx-auto">카카오로 로그인</p>
+      <p className="mx-auto">카카오로 3초 만에 가입하기</p>
     </button>
   );
 }
