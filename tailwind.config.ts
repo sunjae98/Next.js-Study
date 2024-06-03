@@ -15,6 +15,7 @@ const config: Config = {
       },
       backgroundColor: {
         pointColor: "#7353EA",
+        hoverColor: "#613DD6",
       },
       // keyframes: {
       //   infiniteSlideOriginal: {
