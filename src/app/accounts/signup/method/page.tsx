@@ -1,4 +1,3 @@
-import EmailLoginBtn from "@/app/_component/EmailLoginBtn";
 import KakaoLoginBtn from "@/app/_component/KakaoLoginBtn";
 import SubmitBtn from "@/app/_component/SubmitBtn";
 import Link from "next/link";
