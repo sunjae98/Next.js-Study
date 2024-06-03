@@ -13,6 +13,24 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        "elice-pubble": "#7353ea",
+        "login-button-color": "#f5f5f5",
+        "button-header": "#343e4b",
+      },
+      keyframes: {
+        slider: {
+          "0%": {
+            transform: "translateX(0px)",
+          },
+          "100%": {
+            transform: "translateX(-945px)",
+          },
+        },
+      },
+      animation: {
+        slider: "slider 5s linear infinite",
+      },
     },
   },
   plugins: [],
