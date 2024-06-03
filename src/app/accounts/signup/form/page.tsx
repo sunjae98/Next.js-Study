@@ -12,9 +12,9 @@ export default function Page() {
       <InputName />
       <InputEmail />
       <InputPw />
-      <button className="text-sm mx-auto mb-7">
+      <p className="text-sm mx-auto mb-7">
         영문, 숫자, 특수문자를 조합하여 8자 이상으로 구성해주세요.
-      </button>
+      </p>
       <SubmitBtn text="회원가입" />
       <div className="flex mt-12 justify-center">
         <p className="text-sm m-0.5">이미 계정이 있으신가요?</p>
