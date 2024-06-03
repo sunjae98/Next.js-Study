@@ -2,6 +2,7 @@ import Image from "next/image";
 import ContactBtn from "./ContactBtn";
 import SigninBtn from "./SigninBtn";
 import Navbar from "./Navbar";
+import Link from "next/link";
 
 export default function Header() {
   return (
@@ -22,7 +23,9 @@ export default function Header() {
           </div>
         </div>
         <div className="flex">
-          <SigninBtn />
+          <Link href="/accounts/signin">
+            <SigninBtn />
+          </Link>
           <ContactBtn name="상담 요청" size="9" />
         </div>
       </div>
