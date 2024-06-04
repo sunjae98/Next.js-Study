@@ -1,4 +1,4 @@
-import Button from "@/app/_components/button";
+import Button from "@/app/_components/Button";
 
 export default function Consulting() {
   return (

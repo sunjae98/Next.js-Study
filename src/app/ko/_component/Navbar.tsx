@@ -1,12 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
-import Button from "@/app/_components/button";
+import Button from "@/app/_components/Button";
 import logo from "@/../public/icon/elice_logo.png";
 import DownSVG from "@/../public/svg/down.svg";
 
 export default function Navbar() {
   return (
-    <header className="w-full h-[64px] border-b-[1px] flex items-center justify-between px-12">
+    <header className="w-full h-[64px] border-b-[1px] flex items-center justify-between px-12 fixed top-0 left-0 right-0 bg-white z-50">
       <div className="flex flex-1 min-w-0">
         <Link href="/ko" className="flex items-center shrink-0">
           <Image src={logo} alt="logo" width={95} height={28} layout="fixed" />

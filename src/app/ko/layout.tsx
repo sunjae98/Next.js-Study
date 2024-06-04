@@ -5,7 +5,7 @@ export default function layout({ children }: { children: ReactNode }) {
   return (
     <div>
       <Navbar />
-      {children}
+      <div style={{ paddingTop: "64px" }}> {children}</div>
     </div>
   );
 }
