@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export function VideoSection() {
   return (
-    <section className='relative w-full h-[30rem] '>
+    <section className='relative w-full h-[30rem]'>
       <video
         className='absolute w-full h-full object-cover  block'
         autoPlay
