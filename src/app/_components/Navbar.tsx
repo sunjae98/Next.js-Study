@@ -31,12 +31,16 @@ export default function Navbar() {
         </div>
       </div>
       <div className="flex space-x-4">
-        <Button className="bg-gray-100 text-sm px-4 py-[9px] font-medium rounded-lg hover:bg-gray-200">
-          로그인
-        </Button>
-        <Button className="bg-[#7354EA] text-sm text-white px-4 py-[9px] font-medium rounded-lg hover:bg-[#613DD6]">
-          상담 요청
-        </Button>
+        <Link href="/accounts/signin">
+          <Button className="bg-gray-100 text-sm px-4 py-[9px] font-medium rounded-lg hover:bg-gray-200">
+            로그인
+          </Button>
+        </Link>
+        <Link href="/ko/contact">
+          <Button className="bg-[#7354EA] text-sm text-white px-4 py-[9px] font-medium rounded-lg hover:bg-[#613DD6]">
+            상담 요청
+          </Button>
+        </Link>
       </div>
     </header>
   );

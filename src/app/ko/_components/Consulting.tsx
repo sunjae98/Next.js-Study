@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Button from "@/app/_components/Button";
 
 export default function Consulting() {
@@ -23,9 +24,11 @@ export default function Consulting() {
           엘리스에서는 교육, 평가, 데이터까지 DX에 필요한 모든 솔루션을
           제공합니다.
         </div>
-        <Button className="bg-[#7354EA] text-lg text-white mt-[16px] px-[22px] py-[8px] font-medium rounded-lg hover:bg-[#613DD6]">
-          상담 요청하기
-        </Button>
+        <Link href="/ko/contact">
+          <Button className="bg-[#7354EA] text-lg text-white mt-[16px] px-[22px] py-[8px] font-medium rounded-lg hover:bg-[#613DD6]">
+            상담 요청하기
+          </Button>
+        </Link>
       </div>
     </div>
   );
