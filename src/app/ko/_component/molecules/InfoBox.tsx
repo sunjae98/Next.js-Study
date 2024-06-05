@@ -1,5 +1,5 @@
 import React from "react";
-import ArrowSVG from "../../../../public/svg/rightarrow.svg";
+import ArrowSVG from "@/../public/svg/rightarrow.svg";
 import Title from "@/app/_components/Title";
 import SubTitle from "@/app/_components/SubTitle";
 import ColorBox from "@/app/_components/ColorBox";

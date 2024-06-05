@@ -1,4 +1,4 @@
-import InfoBox from "./InfoBox";
+import InfoBox from "./molecules/InfoBox";
 
 const InfoOrg = () => {
   return;
@@ -6,3 +6,5 @@ const InfoOrg = () => {
     <InfoBox />
   </div>;
 };
+
+export default InfoOrg;

@@ -1,16 +1,14 @@
 import React from "react";
 import Consulting from "./_component/Consulting";
-import BrandAnimation from "./_component/BrandAnimation";
-import BrandReverseAnimation from "./_component/BrandReverseAnimation";
-import InfoBox from "./_component/InfoBox";
+import BrandBox from "./_component/BrandBox";
+import InfoBox from "./_component/molecules/InfoBox";
 import VideoBox from "./_component/VideoBox";
 
 export default function Page() {
   return (
     <div>
       <Consulting />
-      <BrandAnimation />
-      <BrandReverseAnimation />
+      <BrandBox />
       <InfoBox />
       <VideoBox />
     </div>
