@@ -7,11 +7,11 @@ interface LayoutProps {
 
 const Layout = ({ children }: LayoutProps) => {
   return (
-    <div className="flex w-full h-full">
+    <div className="flex w-full h-screen">
       <div className="w-1/2">
         <LeftPage />
       </div>
-      <div className="w-1/2">{children}</div>
+      <div className="w-1/2 bg-[#f5f5f5]">{children}</div>
     </div>
   );
 };

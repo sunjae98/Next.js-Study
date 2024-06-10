@@ -5,13 +5,21 @@ interface LoginBtnProps {
   textColor: string;
   logo?: string;
   children: React.ReactNode;
+  disabled?: boolean;
 }
 
-const LoginBtn = ({ bgColor, textColor, logo, children }: LoginBtnProps) => {
+const LoginBtn = ({
+  bgColor,
+  textColor,
+  logo,
+  children,
+  disabled,
+}: LoginBtnProps) => {
   return (
-    <div
+    <button
       className="flex items-center justify-center w-full px-[20px] py-[11px] rounded-lg mb-2"
       style={{ backgroundColor: bgColor, color: textColor }}
+      disabled={disabled}
     >
       <div className="flex justify-between items-center w-full">
         {logo ? (
@@ -24,7 +32,7 @@ const LoginBtn = ({ bgColor, textColor, logo, children }: LoginBtnProps) => {
         </div>
         <div className="w-6 h-6 mr-2"></div>
       </div>
-    </div>
+    </button>
   );
 };
 

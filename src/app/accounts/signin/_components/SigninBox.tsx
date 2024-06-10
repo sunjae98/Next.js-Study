@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import MailSVG from "@/../public/svg/mail.svg";
 import LockSVG from "@/../public/svg/lock.svg";
-import LoginBtn from "./molecules/LoginBtn";
+import LoginBtn from "./molecules/LargeBtn";
 
 const SigninBox = () => {
   return (
