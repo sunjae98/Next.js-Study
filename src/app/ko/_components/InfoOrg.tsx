@@ -29,8 +29,8 @@ const InfoOrg = () => {
       />
       <InfoBox
         labelText="교육 콘텐츠 관리"
-        bgColor="#EEEAFE"
-        textColor="#7353EA"
+        bgColor="#E7F8F9"
+        textColor="#00BCD4"
         title={
           <span>
             1,000개 이상의 교육 콘텐츠로 구성하는
@@ -53,8 +53,8 @@ const InfoOrg = () => {
       />
       <InfoBox
         labelText="디자인 역량 평가"
-        bgColor="#EEEAFE"
-        textColor="#7353EA"
+        bgColor="#E9E9FD"
+        textColor="#3539DF"
         title={
           <span>
             개발자 채용부터 DX 역량 평가까지
@@ -77,8 +77,8 @@ const InfoOrg = () => {
       />
       <InfoBox
         labelText="학습용 클라우드 서비스"
-        bgColor="#EEEAFE"
-        textColor="#7353EA"
+        bgColor="#E1F5FE"
+        textColor="#049BE5"
         title={
           <span>
             학습에 최적화된
