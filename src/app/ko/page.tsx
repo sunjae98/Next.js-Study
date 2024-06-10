@@ -1,7 +1,7 @@
 import React from "react";
 import Consulting from "./_components/Consulting";
 import BrandBox from "./_components/BrandBox";
-import InfoBox from "./_components/molecules/InfoBox";
+import InfoOrg from "./_components/InfoOrg";
 import VideoBox from "./_components/VideoBox";
 
 export default function Page() {
@@ -9,7 +9,7 @@ export default function Page() {
     <div>
       <Consulting />
       <BrandBox />
-      <InfoBox />
+      <InfoOrg />
       <VideoBox />
     </div>
   );
